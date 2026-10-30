@@ -1,3 +1,10 @@
+## 2026-10-30 — Home (en/ar): consultation funnel
+- All primary CTAs -> "احجز استشارة" / "Book a consultation", opening the Typeform (mSQT5DZv) in a new tab. Removed hero "View work" button; added subline.
+- "What I offer": fixed swapped descriptions on 03/04; added "Best for" + "You get" + CTA per service; 03 now an agentic system ready for production.
+- New "How we work with you" (Diagnosis / Delivery / Outcome) + client-selection line.
+- Agents: problem -> solution line per agent + governance line.
+- New #book section (FAQ + what happens after booking) before the final CTA; floating WhatsApp button in brand blue.
+
 ## 2026-07-07 02:25 +04 — Phases B-F: repositioning, static conversion, new pages
 - Converted all pages to static snapshots (pre-rendered hydrated DOM, stripped React runtime) so content is safely editable; re-added mobile menu + language toggle + contact mailto via small inline JS. Design preserved 1:1; mobile verified (no overflow).
 - Home (en/ar): new hero (AI Researcher · Speaker · Agentic AI Specialist positioning + new headline/subtext); status line reframed away from training/consulting; "Expertise" -> "Focus areas"; "Consulting & training" -> "What I offer" with reframed items; removed all "coming soon"/قريباً.
