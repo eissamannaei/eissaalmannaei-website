@@ -1,3 +1,6 @@
+## 2026-10-31 — Language toggle (all 12 pages)
+- Toggle restyled with globe icon + accent border so it stands out; now also visible in the mobile header next to the menu button.
+
 ## 2026-10-30 — Home (en/ar): consultation funnel
 - All primary CTAs -> "احجز استشارة" / "Book a consultation", opening the Typeform (mSQT5DZv) in a new tab. Removed hero "View work" button; added subline.
 - "What I offer": fixed swapped descriptions on 03/04; added "Best for" + "You get" + CTA per service; 03 now an agentic system ready for production.
