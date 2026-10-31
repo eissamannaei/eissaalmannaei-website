@@ -1,3 +1,6 @@
+## 2026-10-31 — Language toggle label
+- Toggle now reads EN / AR in the same frame, globe icon removed.
+
 ## 2026-10-31 — Language toggle (all 12 pages)
 - Toggle restyled with globe icon + accent border so it stands out; now also visible in the mobile header next to the menu button.
 
