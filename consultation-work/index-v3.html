@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>استشارة مع عيسى المناعي</title>
+  <meta name="description" content="استشارة فردية مع عيسى المناعي لكل من يبي يكون رقم 1 بالذكاء الاصطناعي في دوامه أو شركته.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@400;500;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <script src="https://cdn.tailwindcss.com/3.4.16"></script>
+  <style>
+    :root {
+      --color-ink: #1e1e1e;
+      --color-ink-soft: #626262;
+      --color-bg: #ffffff;
+      --color-bg-panel: #f7f7f7;
+      --color-bg-invert: #0e0e0e;
+      --color-accent: #2d5bff;
+      --color-accent-press: #1e47e0;
+      --color-accent-tint: #eaf0ff;
+      --color-line: #e4e4e4;
+    }
+    body {
+      font-family: "IBM Plex Sans Arabic", "Space Grotesk", sans-serif;
+      background: var(--color-bg);
+      color: var(--color-ink);
+    }
+    .mono-label {
+      font-family: "JetBrains Mono", "IBM Plex Sans Arabic", monospace;
+      font-size: 11px;
+      font-weight: 500;
+      color: var(--color-ink-soft);
+    }
+    .num { font-family: "Space Grotesk", sans-serif; }
+    html { scroll-behavior: smooth; }
+    @media (max-width: 639px) { body { padding-bottom: 76px; } }
+  </style>
+</head>
+<body>
+
+  <!-- رابط الدفع (Whop) يتغير من PAY_URL في آخر الملف -->
+
+  <header class="sticky top-0 z-50 border-b border-[#e4e4e4] bg-white/85 backdrop-blur-md">
+    <div class="mx-auto flex max-w-[72rem] items-center justify-between px-5 py-3 sm:px-8">
+      <span class="text-sm font-semibold text-[#1e1e1e]">عيسى المناعي</span>
+      <a href="#pay" data-pay class="rounded-[2px] bg-[#2d5bff] px-4 py-2 text-sm font-semibold text-white transition-colors hover:bg-[#1e47e0]">احجز استشارة</a>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="border-b border-[#e4e4e4]">
+    <div class="mx-auto grid w-full max-w-[72rem] items-center gap-12 px-5 py-16 sm:px-8 sm:py-24 lg:grid-cols-[1.25fr_1fr]">
+      <div>
+        <p class="mono-label mb-6 flex items-center gap-2">
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+          استشارة فردية · عبر الفيديو · مواعيد محدودة كل أسبوع
+        </p>
+        <h1 class="mb-6 text-4xl font-bold leading-[1.15] sm:text-6xl sm:leading-[1.05]">
+          كن رقم <span class="num">1</span> بالذكاء الاصطناعي في دوامك.
+        </h1>
+        <p class="mb-8 max-w-xl text-lg leading-relaxed text-[#626262]">
+          خلّك الشخص اللي يرجعون له في الذكاء الاصطناعي. جلسة تشخيص فردية على شغلك أنت، تطلع منها بخطة مكتوبة: شو تفوّض أول، وبأي أداة، وكيف تبدأ من بكرة.
+        </p>
+        <div class="flex flex-wrap items-center gap-3">
+          <a href="#pay" data-pay class="inline-flex items-center gap-2 rounded-[2px] bg-[#2d5bff] px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[#1e47e0]">
+            احجز استشارة ←
+          </a>
+          <a href="#outcomes" class="inline-flex items-center gap-2 rounded-[2px] border border-[#1e1e1e]/15 bg-white px-5 py-3.5 text-sm font-semibold text-[#1e1e1e] transition-colors hover:border-[#2d5bff] hover:text-[#2d5bff]">
+            شو ممكن تستفيد من الجلسة؟
+          </a>
+        </div>
+        
+      </div>
+      <div class="relative">
+        <img src="https://eissaalmannaei.ae/images/eissa.jpg" alt="عيسى المناعي" class="aspect-[4/5] w-full rounded-[4px] border border-[#e4e4e4] object-cover">
+        <div class="absolute bottom-4 left-4 right-4 rounded-[4px] border border-[#e4e4e4] bg-white/95 p-4 backdrop-blur-sm">
+          <p class="text-sm font-bold">عيسى المناعي</p>
+          <p class="text-xs text-[#626262]">باحث استراتيجي في الذكاء الاصطناعي ومدرب، أبوظبي</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proof numbers -->
+  <section class="border-b border-[#e4e4e4] bg-[#f7f7f7]">
+    <div class="mx-auto grid max-w-[72rem] grid-cols-1 gap-px bg-[#e4e4e4] sm:grid-cols-3">
+      <div class="bg-[#f7f7f7] px-5 py-8 sm:px-8">
+        <p class="num mb-1 text-4xl font-bold">1M+</p>
+        <p class="text-sm text-[#626262]">تسجيل في برنامج تدريبي حكومي قدّمته</p>
+      </div>
+      <div class="bg-[#f7f7f7] px-5 py-8 sm:px-8">
+        <p class="num mb-1 text-4xl font-bold">50+</p>
+        <p class="text-sm text-[#626262]">ورشة وبرنامج تدريبي</p>
+      </div>
+      <div class="bg-[#f7f7f7] px-5 py-8 sm:px-8">
+        <p class="num mb-1 text-4xl font-bold">21+</p>
+        <p class="text-sm text-[#626262]">جهة حكومية وأكاديمية وخاصة</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pain -->
+  <section class="mx-auto w-full max-w-[72rem] px-5 py-20 sm:px-8 sm:py-28">
+    <p class="mono-label mb-4 flex items-center gap-2">
+      <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+      هل هذا أنت؟
+    </p>
+    <h2 class="mb-10 max-w-2xl text-3xl font-bold leading-tight sm:text-4xl">تعرف إن الذكاء الاصطناعي مهم، بس للحين ما غيّر شي في يومك.</h2>
+    <div class="grid gap-5 sm:grid-cols-2">
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-2 text-lg font-bold">"كل دورة أطلع منها ما أعرف أسوي غير المثال اللي انشرح فيها."</p>
+        <p class="text-sm leading-relaxed text-[#626262]">حضرت ورش وشفت أدوات، بس ما في شي ركب على شغلك أنت.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-2 text-lg font-bold">المهام متراكمة، وما تقدر تاخذ إجازة.</p>
+        <p class="text-sm leading-relaxed text-[#626262]">عندك شغل يحتاج فريق كامل، وأنت شخص واحد.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-2 text-lg font-bold">مديرك يقول: "دخّل لنا الذكاء الاصطناعي."</p>
+        <p class="text-sm leading-relaxed text-[#626262]">وأنت ما تعرف من وين تبدأ، ولا أي أداة تناسب جهتك.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-2 text-lg font-bold">خايف على بيانات الشغل.</p>
+        <p class="text-sm leading-relaxed text-[#626262]">تبي تستخدم الأدوات، بس ما تبي تحط بيانات جهتك في مكان غلط.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Mission -->
+  <section class="bg-[#0e0e0e] py-20 sm:py-28">
+    <div class="mx-auto max-w-[72rem] px-5 text-center sm:px-8">
+      <p class="mono-label mb-6 flex items-center justify-center gap-2 !text-white/50">
+        <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+        ليش أسوي هذا
+      </p>
+      <h2 class="mx-auto mb-8 max-w-3xl text-3xl font-bold leading-snug text-white sm:text-4xl">
+        السؤال مو أي أداة تستخدم. السؤال: أي جزء من شغلك تبطّل تسويه بنفسك؟
+      </h2>
+      <p class="mx-auto max-w-2xl text-lg leading-relaxed text-white/70">
+        أؤمن أن كل شخص قادر على إطلاق طموحه نحو المستقبل باستخدام الذكاء الاصطناعي. مهمتي أن أمكّن كل إماراتي من فهم الذكاء الاصطناعي والثقة به والبناء به، لين يصير جزء عادي من يومه، مو شي يسمع عنه في الأخبار.
+      </p>
+    </div>
+  </section>
+
+  <!-- For / Not for -->
+  <section class="border-b border-[#e4e4e4] bg-[#f7f7f7]">
+    <div class="mx-auto w-full max-w-[72rem] px-5 py-20 sm:px-8 sm:py-28">
+      <p class="mono-label mb-4 flex items-center gap-2">
+        <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+        لمن هذه الاستشارة
+      </p>
+      <h2 class="mb-10 text-3xl font-bold sm:text-4xl">نختار بعناية، عشان نقدر نوصلك لنتيجة.</h2>
+      <div class="grid gap-5 md:grid-cols-2">
+        <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-6">
+          <p class="mb-4 font-bold">تناسبك إذا</p>
+          <ul class="space-y-3 text-sm leading-relaxed text-[#1e1e1e]">
+            <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#2d5bff]"></span>موظف أو مدير قسم أو صاحب عمل، وتبي تكون الشخص اللي يرجعون له في الذكاء الاصطناعي.</li>
+            <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#2d5bff]"></span>عندك مهام تتكرر كل أسبوع: تقارير، عروض، إيميلات، متابعات.</li>
+            <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#2d5bff]"></span>مستعد تطبّق، مو بس تسمع.</li>
+          </ul>
+        </div>
+        <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-6">
+          <p class="mb-4 font-bold text-[#626262]">ما تناسبك إذا</p>
+          <ul class="space-y-3 text-sm leading-relaxed text-[#626262]">
+            <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#626262]"></span>تدوّر على قائمة أدوات وبس.</li>
+            <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#626262]"></span>تبي نتيجة بدون ما تغيّر طريقة شغلك.</li>
+            <li class="flex gap-3"><span class="mt-2 h-1.5 w-1.5 shrink-0 rounded-full bg-[#626262]"></span>تبي ورشة لجهة كاملة. هذي لها مسار ثاني، <a href="https://wa.me/971569441119" class="underline hover:text-[#2d5bff]">كلمني على واتساب</a>.</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Outcomes -->
+  <section id="outcomes" class="mx-auto w-full max-w-[72rem] scroll-mt-20 px-5 py-20 sm:px-8 sm:py-28">
+    <p class="mono-label mb-4 flex items-center gap-2">
+      <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+      شو ممكن تستفيد من الجلسة
+    </p>
+    <h2 class="mb-3 max-w-3xl text-3xl font-bold leading-tight sm:text-4xl">تطلع وأنت عارف شو تفوّض للذكاء الاصطناعي، ومن وين تبدأ.</h2>
+    <p class="mb-10 max-w-2xl text-[#626262]">تطلع من الجلسة وبيدك:</p>
+    <div class="grid gap-5 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff] hover:bg-[#eaf0ff]/40">
+        <p class="num mb-4 text-sm text-[#626262]">01</p>
+        <h3 class="mb-2 text-lg font-bold">تشخيص لشغلك</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">نفرز مهامك: شو يتفوّض للذكاء الاصطناعي، وشو يبقى عندك لأنه يحتاج حكمك أنت.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff] hover:bg-[#eaf0ff]/40">
+        <p class="num mb-4 text-sm text-[#626262]">02</p>
+        <h3 class="mb-2 text-lg font-bold">أول مهام تفوّضها</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">المهام اللي ترجّع لك أكبر وقت، وتبدأ فيها من بكرة.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff] hover:bg-[#eaf0ff]/40">
+        <p class="num mb-4 text-sm text-[#626262]">03</p>
+        <h3 class="mb-2 text-lg font-bold">أدوات مناسبة لك</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">أدوات تناسب طبيعة شغلك، ونحدد شو من بياناتك ما يصلح يدخل الأدوات العامة.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] p-6 transition-colors duration-300 hover:border-[#2d5bff] hover:bg-[#eaf0ff]/40">
+        <p class="num mb-4 text-sm text-[#626262]">04</p>
+        <h3 class="mb-2 text-lg font-bold">خطة مكتوبة</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">الخطوات كلها مكتوبة، ترجع لها وقت ما تحتاج.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Agents -->
+  <section class="border-y border-[#e4e4e4] bg-[#f7f7f7]">
+    <div class="mx-auto w-full max-w-[72rem] px-5 py-20 sm:px-8 sm:py-28">
+      <p class="mono-label mb-4 flex items-center gap-2">
+        <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+        وكلاء شغّالة عندي
+      </p>
+      <h2 class="mb-3 text-3xl font-bold sm:text-4xl">أطبّقه على شغلي قبل ما أعلّمه.</h2>
+      <p class="mb-10 max-w-2xl text-[#626262]">هذي وكلاء تشتغل عندي الحين. أي واحد منها ممكن يكون أول شي تبنيه لشغلك بعد الاستشارة.</p>
+      <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">الجدولة والتنسيق</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">مواعيد واجتماعات تترتب، بدون رسائل رايحة جاية.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">صناعة المحتوى والنشر</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">من فكرة أو لقطة خام إلى منشور جاهز، مع إدارة الحساب.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">تقارير الإدارة العليا</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">تقارير أسبوعية وشهرية جاهزة للعرض.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">ترتيب الأولويات</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">يرتب جدولك بين الشغل المهم واحتياجاتك الشخصية.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">المستشار المالي</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">يرتب أمورك المالية ويتابعها.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">مطوّر التطبيقات</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">نموذج أولي يشتغل لأي مقترح، بدل عرض على ورق.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">جمع البيانات والاستبيانات</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">نماذج استطلاع، وبيانات مجمّعة جاهزة للتحليل.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">مدقق العقود</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">مراجعة أكثر من 1,000 عقد، ورصد كل مرفق ناقص تلقائياً.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">الموجز اليومي</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">متابعة عشرات المصادر، وموجز عربي PDF جاهز كل صباح.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">البحث المعمّق</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">مصادر مقيّمة حسب المصداقية، وتقرير بالعربي والإنجليزي جاهز للتصدير.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">الرصد الإعلامي</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">التغطية مرتبة حسب الأهمية على لوحة عربية.</p>
+      </div>
+      <div class="rounded-[4px] border border-[#e4e4e4] bg-white p-5 transition-colors duration-300 hover:border-[#2d5bff]">
+        <p class="mb-3 flex items-center gap-1.5 font-mono text-[10px] font-medium text-[#626262]"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>شغّال</p>
+        <h3 class="mb-1.5 font-bold">من فيديو إلى حالة تدريبية</h3>
+        <p class="text-sm leading-relaxed text-[#626262]">فيديو من الجوال يتحول إلى ملف حالة عربي بدون تدخل.</p>
+      </div>
+      </div>
+      <p class="mono-label mt-6">في كل وكيل أبنيه: مراجعة بشرية للقرار النهائي · سجل لكل مخرج · صلاحيات محددة للبيانات</p>
+    </div>
+  </section>
+
+  <!-- Logos -->
+  <section class="mx-auto w-full max-w-[72rem] px-5 py-20 sm:px-8">
+    <p class="mono-label mb-6 flex items-center gap-2">
+      <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+      جهات اشتغلت معها
+    </p>
+    <div class="grid grid-cols-3 gap-px overflow-hidden rounded-[4px] border border-[#e4e4e4] bg-[#e4e4e4] sm:grid-cols-4 lg:grid-cols-6">
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/dff_main_logo_201019.png" alt="مؤسسة دبي للمستقبل" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/dubaicentreforartificialintellgences.png" alt="مركز دبي للذكاء الاصطناعي" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/egalogo.png" alt="الإمارات العالمية للألمنيوم" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/khalifa_university_new.png" alt="جامعة خليفة" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/uaeulogo.png" alt="جامعة الإمارات" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/trendslogo_new.png" alt="تريندز للبحوث والاستشارات" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/uae_moce_new.png" alt="وزارة إماراتية" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/cdalogo.png" alt="هيئة تنمية المجتمع" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/legal.png" alt="دائرة الشؤون القانونية بحكومة دبي" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/coderslogo.png" alt="Coders HQ" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/dubai_chamber_of_digital_economy_english.png" alt="غرفة دبي للاقتصاد الرقمي" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+      <div class="flex h-24 items-center justify-center bg-white p-5"><img src="https://eissaalmannaei.ae/logos/trim/shj_media.png" alt="أكاديمية الشارقة للإعلام" class="max-h-10 w-auto object-contain opacity-70 grayscale"></div>
+    </div>
+  </section>
+
+  <!-- How it works -->
+  <section id="pay" class="scroll-mt-20 border-y border-[#e4e4e4] bg-[#f7f7f7]">
+    <div class="mx-auto grid w-full max-w-[72rem] gap-12 px-5 py-20 sm:px-8 sm:py-28 lg:grid-cols-[1.2fr_1fr]">
+      <div>
+        <p class="mono-label mb-4 flex items-center gap-2">
+          <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+          كيف تحجز
+        </p>
+        <h2 class="mb-10 text-3xl font-bold sm:text-4xl">ثلاث خطوات، وأول وحدة تاخذ دقيقة.</h2>
+        <ol class="space-y-0">
+          <li class="border-t border-[#e4e4e4] py-5">
+            <p class="num mb-1 text-sm text-[#626262]">01</p>
+            <p class="font-bold">اضغط على الزر الأزرق</p>
+            <p class="text-sm text-[#626262]">"احجز استشارة"، وكمّل الدفع.</p>
+          </li>
+          <li class="border-t border-[#e4e4e4] py-5">
+            <p class="num mb-1 text-sm text-[#626262]">02</p>
+            <p class="font-bold">تختار موعدك</p>
+            <p class="text-sm text-[#626262]">بعد الدفع تختار الوقت من المواعيد المتاحة، وتجاوب على أسئلة قصيرة عن شغلك عشان أجهّز لك قبل الجلسة.</p>
+          </li>
+          <li class="border-y border-[#e4e4e4] py-5">
+            <p class="num mb-1 text-sm text-[#626262]">03</p>
+            <p class="font-bold">ننطلق في رحلة التحوّل</p>
+            <p class="text-sm text-[#626262]">نجلس عبر الفيديو، وتطلع بخطتك المكتوبة.</p>
+          </li>
+        </ol>
+      </div>
+      <div class="self-start rounded-[4px] border border-[#1e1e1e] bg-white p-8">
+        <p class="mono-label mb-4">استشارة فردية مع عيسى</p>
+        <p class="mb-6 text-2xl font-bold">جلسة تشخيص فردية عبر الفيديو</p>
+        <a href="#pay" data-pay class="mb-6 flex w-full items-center justify-center gap-2 rounded-[2px] bg-[#2d5bff] px-6 py-4 text-base font-semibold text-white transition-colors hover:bg-[#1e47e0]">
+          احجز استشارة ←
+        </a>
+        <div class="border-t border-[#e4e4e4] pt-5">
+          <p class="mb-2 font-bold">ضماني لك</p>
+          <p class="text-sm leading-relaxed text-[#626262]">بعد الدفع أراجع إجاباتك. إذا شفت إن الجلسة ما بتفيدك، أرجع لك المبلغ قبل ما نبدأ. وإذا ما قدرت أطلع لك بثلاث فرص عملية وخطوة أولى واضحة، أرجع لك المبلغ في نهاية الجلسة.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- After the consultation -->
+  <section class="mx-auto w-full max-w-[72rem] px-5 py-16 sm:px-8">
+    <div class="rounded-[4px] border border-[#e4e4e4] p-6 sm:p-8">
+      <p class="mono-label mb-3 flex items-center gap-2"><span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>بعد الاستشارة</p>
+      <p class="text-lg font-bold">إذا طلع إن التنفيذ يحتاج دعم أكثر، أعرض عليك الخيارات المناسبة في نهاية الجلسة. بدون أي التزام.</p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="border-t border-[#e4e4e4] bg-[#f7f7f7]">
+    <div class="mx-auto w-full max-w-[72rem] px-5 py-20 sm:px-8 sm:py-28">
+      <p class="mono-label mb-4 flex items-center gap-2">
+        <span class="inline-block h-1.5 w-1.5 rounded-full bg-[#2d5bff]"></span>
+        أسئلة
+      </p>
+      <h2 class="mb-10 text-3xl font-bold sm:text-4xl">قبل ما تحجز</h2>
+      <div class="max-w-3xl">
+        <details class="group border-t border-[#e4e4e4] py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">أنا مو تقني. تناسبني؟<span class="text-[#626262] transition-transform group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-sm leading-relaxed text-[#626262]">نعم. نشتغل على مهامك أنت، مو على البرمجة. أغلب اللي يحجزون يبدون من الصفر.</p>
+        </details>
+        <details class="group border-t border-[#e4e4e4] py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">أشتغل في جهة حكومية والبيانات حساسة.<span class="text-[#626262] transition-transform group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-sm leading-relaxed text-[#626262]">هذا جزء من التشخيص. نحدد شو ما يصلح يدخل الأدوات العامة، ونختار الأدوات على هالأساس. القرار النهائي في سياسات البيانات يبقى لجهتك.</p>
+        </details>
+        <details class="group border-t border-[#e4e4e4] py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">الاستشارة لي ولا لجهتي؟<span class="text-[#626262] transition-transform group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-sm leading-relaxed text-[#626262]">لك أنت. ولو حاب تاخذ ورشة أو برنامج لجهتك كاملة، <a href="https://wa.me/971569441119" class="underline hover:text-[#2d5bff]">كلمني على واتساب</a>.</p>
+        </details>
+        <details class="group border-y border-[#e4e4e4] py-5">
+          <summary class="flex cursor-pointer list-none items-center justify-between gap-4 font-bold">شو يصير بعد الدفع؟<span class="text-[#626262] transition-transform group-open:rotate-45">+</span></summary>
+          <p class="mt-3 text-sm leading-relaxed text-[#626262]">توصلك صفحة تختار منها الموعد، مع أسئلة قصيرة عن شغلك. أراجع إجاباتك قبل الجلسة عشان ما نضيّع وقتها في التعارف.</p>
+        </details>
+      </div>
+    </div>
+  </section>
+
+  <!-- Final CTA -->
+  <footer class="bg-[#0e0e0e] py-20 sm:py-28">
+    <div class="mx-auto max-w-[72rem] px-5 text-center sm:px-8">
+      <p class="mx-auto mb-4 max-w-2xl text-3xl font-bold leading-snug text-white sm:text-4xl">جلسة وحدة، وتطلع بخطة على شغلك أنت.</p>
+      <p class="mx-auto mb-8 max-w-xl text-white/60">نفوّض المهمة، ولا نفوّض المسؤولية.</p>
+      <a href="#pay" data-pay class="inline-flex items-center gap-2 rounded-[2px] bg-[#2d5bff] px-6 py-3.5 text-base font-semibold text-white transition-colors hover:bg-[#1e47e0]">
+        احجز استشارة ←
+      </a>
+      <p class="mono-label mt-10 !text-white/40">
+        <a href="https://eissaalmannaei.ae/ar/" class="hover:text-white">eissaalmannaei.ae</a> ·
+        <a href="https://www.instagram.com/eissaalmannaei" class="hover:text-white">Instagram</a> ·
+        <a href="https://www.linkedin.com/in/eissa-almannaei-2788bb155" class="hover:text-white">LinkedIn</a>
+      </p>
+    </div>
+  </footer>
+
+  <!-- Mobile sticky CTA -->
+  <div class="fixed inset-x-0 bottom-0 z-50 border-t border-[#e4e4e4] bg-white/95 p-3 backdrop-blur-md sm:hidden">
+    <a href="#pay" data-pay class="flex w-full items-center justify-center gap-2 rounded-[2px] bg-[#2d5bff] px-5 py-3.5 text-base font-semibold text-white">
+      احجز استشارة
+    </a>
+  </div>
+
+  <script>
+    // رابط صفحة الدفع في Whop. ما دام فاضي، الأزرار تفتح واتساب برسالة حجز جاهزة.
+    const PAY_URL = "https://whop.com/eissaalmanaei/1-5a-6e27";
+    const FALLBACK_URL = "https://wa.me/971569441119?text=" + encodeURIComponent("مرحبا عيسى، أبي أحجز استشارة.");
+    document.querySelectorAll("[data-pay]").forEach(a => {
+      a.href = PAY_URL || FALLBACK_URL;
+      a.target = "_blank";
+      a.rel = "noopener";
+    });
+  </script>
+</body>
+</html>
